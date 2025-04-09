@@ -169,7 +169,7 @@ OpenAPI specifications from Smithy models.
             }
 
             dependencies {
-                smithyBuild("software.amazon.smithy:smithy-aws-traits:__smithy_version__")
+                smithyBuild("software.amazon.smithy:smithy-openapi:__smithy_version__")
 
                 // Required for restJson1 trait.
                 implementation("software.amazon.smithy:smithy-aws-traits:__smithy_version__")
@@ -188,7 +188,7 @@ OpenAPI specifications from Smithy models.
             }
 
             dependencies {
-                smithyBuild 'software.amazon.smithy:smithy-aws-traits:__smithy_version__'
+                smithyBuild 'software.amazon.smithy:smithy-openapi:__smithy_version__'
 
                 // Required for restJson1 trait.
                 implementation 'software.amazon.smithy:smithy-aws-traits:__smithy_version__'
